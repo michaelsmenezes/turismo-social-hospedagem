@@ -1,0 +1,273 @@
+﻿<%@ Master Language="VB" CodeFile="TurismoSocial.master.vb" Inherits="TurismoSocial" AutoEventWireup="True" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%--<!DOCTYPE html>
+--%>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <script src="../JScript.js" type="text/javascript"></script>
+
+    <script src="JScript.js" type="text/javascript"></script>
+
+    <title>SESC Caldas Novas</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<script type="text/javascript">
+
+    //Variáveis globais
+
+    var ENTER = 13; //Tecla Enter para executar
+
+    var LIMPAR = 27; //Tecla ESC
+
+
+    //pegar a tecla
+
+    function GetKeyPress() {
+
+        try {
+
+            switch (event.keyCode) {
+
+                case LIMPAR: //Tecla ESC para sair do Sistema
+
+                    document.forms['aspnetForm'].ctl00$conPlaHolTurismoSocial$txtConsulta.value = "";
+                    document.forms['aspnetForm'].ctl00$conPlaHolTurismoSocial$hddOperacao.value = "false";
+                    document.forms['aspnetForm'].ctl00$conPlaHolTurismoSocial$txtConsulta.focus();
+            }
+
+        }
+
+        catch (e) {
+
+            window.close();
+
+        }
+
+
+    }
+
+
+    //sair do sistema        
+
+    function SairSistema() {
+
+        try {
+
+            window.close();
+
+        }
+
+        catch (e) {
+
+            window.close();
+
+        }
+
+    }
+    function ValidaQtdeAcm(lnk, qtdeOriginal, Acomodacao) {
+        var row = lnk.parentNode.parentNode;
+        var qtde = row.cells[1].getElementsByTagName("input")[0].value;
+        if (qtde > qtdeOriginal) {
+            alert("Quantidade informada é maior que a quantidade livre.");
+            return false;
+        } else {
+            return confirm('Bloquear ' + qtde + ' (' + Acomodacao + ')?');
+        }
+    }
+</script>
+
+<body style="top: 0px; left: 0px; z-index: 10;" topmargin="10px" leftmargin="0" onkeypress="GetKeyPress()" class="margemEsquerdaPagina">
+    
+    <form id="aspnetForm" runat="server" class="margemEsquerdaPagina">
+        <div class="posicaoFixa" style="top: 0px; left: 0px; z-index: 10; width: 100%;">
+            <asp:ToolkitScriptManager ID="scpMngTurismoSocial" runat="server" EnableScriptGlobalization="true"
+                EnableScriptLocalization="true" LoadScriptsBeforeUI="False" ScriptMode="Release" AsyncPostBackTimeout="200">
+            </asp:ToolkitScriptManager>
+            <asp:UpdatePanel ID="updPnlTurismoSocial" runat="server">
+                <ContentTemplate>
+                    <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="pageLogo" width="62%" height="53">&nbsp;Turismo Social
+                            </td>
+                            <td width="25%" height="53" align="center" class="formLabel" bgcolor="White" valign="middle">
+                                <span lang="pt-br">&nbsp;&nbsp;&nbsp; </span>
+                                <asp:ImageButton ID="imgAjuda" runat="server" ImageUrl="images/ajuda.png" ImageAlign="AbsMiddle"
+                                    ToolTip="Ajuda" Visible="False" OnClientClick="return false" />
+                                <asp:BalloonPopupExtender ID="imgAjuda_BalloonPopupExtender" runat="server" BalloonPopupControlID="pnlAjuda"
+                                    BalloonSize="Large" CustomCssUrl="" DynamicServicePath="" Enabled="True" ExtenderControlID=""
+                                    TargetControlID="imgAjuda">
+                                </asp:BalloonPopupExtender>
+                                <asp:Label ID="lblUsuario" runat="server" Text="Usuário" ToolTip="Usuário"></asp:Label>
+                            </td>
+                            <td width="13%" height="53" align="right" bgcolor="White" valign="middle">
+                                <asp:Image ID="imgLogotipo" runat="server" ImageUrl="~/images/Sesc 70 anos.png" Height="50px" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="formRuler" align="center" valign="middle">
+                                <asp:Menu ID="mnuTurismoSocial" runat="server" Orientation="Horizontal" DisappearAfter="1500"
+                                    Width="100%">
+                                    <StaticMenuItemStyle CssClass="menuToolBarItem" />
+                                    <Items>
+                                        <asp:MenuItem NavigateUrl="~/Reserva.aspx" Text="Reserva" Value="Reserva"></asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="~/Recepcao.aspx" Text="Recepção" Value="Recepção"></asp:MenuItem>
+                                        <%--<asp:MenuItem NavigateUrl="http://turismoemissivonet" Text="Emissivo" Value="Emissivo"></asp:MenuItem>--%>
+                                        <asp:MenuItem NavigateUrl="https://admportalturismo.sescgo.com.br/" Text="Backoffice" Target="_blank" Value="Backoffice"></asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="~/Governanca/Governanca.aspx" Text="Governança" Value="Governança"></asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="~/PortariaRestaurante.aspx" Text="Restaurante" Value="Restaurante"></asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="~/AlimentosEBebidas/frmAlimentosBebidas.aspx" Text="Alimentação"
+                                            Value="Alimentação"></asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="http://HDManutencao" Text="Manutenção" Value="Manutenção"></asp:MenuItem>
+                                        <asp:MenuItem Text="Ranking" Value="Ranking" NavigateUrl="~/Ranking.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Gerencial" Value="Gerencial"
+                                            NavigateUrl="~/InformacoesGerenciais/frmMenuGerencial.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Financeiro" Value="Financeiro"
+                                            NavigateUrl="~/Financeiro/frmMenuFinanceiro.aspx"></asp:MenuItem>
+                                        <%--<asp:MenuItem NavigateUrl="javascript:window.open('http://SVHCaldas','','resizable=yes,toolbar=no,status=yes,menubar=no,location=no,scrollbars=yes, dependet=no,top=5%,left=100,width=700,height=700')"--%>
+                                        <asp:MenuItem NavigateUrl="javascript:abrir('http://SVHCaldas',30,100,'700','700')"
+                                            Text="Simulador" Value="Simulador"></asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="http://receptivo" Text="Receptivo" Value="Receptivo"></asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="~/Valor.aspx" Text="Valor" ToolTip="Tabela de Valores de Hospedagem " Value="valor"></asp:MenuItem>
+                                    </Items>
+                                </asp:Menu>
+                            </td>
+                            <td class="formRuler" colspan="2" align="center" valign="middle">
+                                <asp:ImageButton ID="imgHome" runat="server" CssClass="ColocaHand" ImageAlign="AbsMiddle"
+                                    ImageUrl="~/images/home_green.png" ToolTip="Ir para a Pousada SESC Pirenópolis" />
+                                <asp:LinkButton ID="lnkPirenopolis" runat="server" CssClass="formHtml" CausesValidation="False"
+                                    ToolTip="Ir para a Pousada SESC Pirenópolis" TabIndex="-1">Pousada SESC Pirenópolis</asp:LinkButton>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="3" class="tableRowOdd">
+                                <asp:Label ID="Label1" runat="server" Text="Check-In" Visible="False"
+                                    CssClass="formLabelEscuro"></asp:Label>
+                                <asp:Label ID="Label2" runat="server" Text="Aptos" Visible="False"
+                                    CssClass="formLabelEscuro"></asp:Label>
+                                <asp:Label ID="Label3" runat="server" Text="Hóspedes | " Visible="False"
+                                    CssClass="formLabelEscuro"></asp:Label>
+                                <asp:Label ID="Label4" runat="server" Text="Previsão: Check-Out" Visible="False"
+                                    CssClass="formLabelEscuro"></asp:Label>
+                                <asp:Label ID="Label5" runat="server" Text="Aptos" Visible="False"
+                                    CssClass="formLabelEscuro"></asp:Label>
+                                <asp:Label ID="Label6" runat="server" Text="Hóspedes | " Visible="False"
+                                    CssClass="formLabelEscuro"></asp:Label>
+                                <asp:Label ID="Label7" runat="server" Text="Em estada" Visible="False"
+                                    CssClass="formLabelEscuro"></asp:Label>
+                                <asp:Label ID="Label8" runat="server" Text="Aptos" Visible="False"
+                                    CssClass="formLabelEscuro"></asp:Label>
+                                <asp:Label ID="Label9" runat="server" Text="Hóspedes | " Visible="False"
+                                    CssClass="formLabelEscuro"></asp:Label>
+                                <asp:Label ID="Label10" runat="server" Text="Passantes | " Visible="False"
+                                    CssClass="formLabelEscuro"></asp:Label>
+                                <asp:Label ID="Label11" runat="server" Text="Total | " Visible="False"
+                                    CssClass="formLabelEscuro"></asp:Label>
+                                <asp:CheckBox ID="ckbTempoReal" runat="server" Text="Tempo real"
+                                    Visible="False" Checked="True" CssClass="formLabelEscuro" />
+                            </td>
+                        </tr>
+                    </table>
+                    </div>
+                    <asp:Panel ID="pnlAjuda" runat="server" Style="left: -1000px; top: -1000px;"
+                        CssClass="posicaoFixa">
+                        <asp:Panel ID="pnlRecepcao" runat="server">
+                            <asp:ImageButton ID="imgIntegranteAzul" runat="server" ImageAlign="AbsMiddle" ImageUrl="~/images/HospedeAzul.png"
+                                OnClientClick="return false" />
+                            Clicar para finalizar integrante em estada<br />
+                            <asp:ImageButton ID="imgIntegranteVerde" runat="server" ImageAlign="AbsMiddle" ImageUrl="~/images/HospedeVerde.png"
+                                OnClientClick="return false" />
+                            Clicar para entrar integrante<br />
+                            <asp:ImageButton ID="imgIntegranteAmarelo" runat="server" ImageAlign="AbsMiddle"
+                                ImageUrl="~/images/HospedeAmarelo.png" OnClientClick="return false" />
+                            Clicar para atribuir cartão ao integrante<br />
+                            <asp:ImageButton ID="imgIntegranteVermelho" runat="server" ImageAlign="AbsMiddle"
+                                ImageUrl="~/images/HospedeVermelho.png" OnClientClick="return false" />
+                            Pendente de pagamento<br />
+                            <asp:ImageButton ID="imgIntegranteRoxo" runat="server" ImageAlign="AbsMiddle" ImageUrl="~/images/HospedeRoxo.png"
+                                OnClientClick="return false" />
+                            Pendente de integrante<br />
+                            <asp:ImageButton ID="imgIntegranteCinza" runat="server" ImageAlign="AbsMiddle" ImageUrl="~/images/HospedeCinza.png"
+                                OnClientClick="return false" />
+                            Período vencido<br />
+                            <asp:ImageButton ID="imgBtnEmprestimo" runat="server" ImageAlign="Middle" ImageUrl="~/images/Emprestimo.png"
+                                OnClientClick="return false" />
+                            Empréstimos ou consumos do integrante<br />
+                            <asp:ImageButton ID="imgBtnEmprestimoOk" runat="server" ImageAlign="Middle" ImageUrl="~/images/EmprestimoOk.png"
+                                OnClientClick="return false" />
+                            Empréstimos ou consumos existentes<br />
+                            <asp:ImageButton ID="imgBloquearCartao" runat="server" ImageAlign="Middle" ImageUrl="~/images/BloquearCartao.png"
+                                OnClientClick="return false" />Bloquear o cartão do integrante<br />
+                            <asp:ImageButton ID="imgEntregarChave" runat="server" ImageAlign="Middle" ImageUrl="~/images/ChaveNaoEntregue.gif"
+                                OnClientClick="return false" />
+                            Entregar a chave ao integrante do apartamento<br />
+                            <asp:ImageButton ID="imgDesocuparApto" runat="server" ImageAlign="Middle" ImageUrl="~/images/ChaveEntregue.gif"
+                                OnClientClick="return false" />
+                            Desocupar o apartamento<br />
+                            <asp:ImageButton ID="imgConferencia" runat="server" ImageAlign="Middle" ImageUrl="~/images/Conferencia.png"
+                                OnClientClick="return false" />
+                            Apartamento em conferência<br />
+                            <asp:ImageButton ID="imgReentregarChave" runat="server" ImageAlign="Middle" ImageUrl="~/images/ok.gif"
+                                OnClientClick="return false" />
+                            Reentrega da chave de apartamento desocupado<br />
+                            <asp:ImageButton ID="imgTransferencia" runat="server" ImageAlign="Middle" ImageUrl="~/images/transferencia.png"
+                                OnClientClick="return false" />Transferir os integrantes do apartamento programado<br />
+                            <asp:ImageButton ID="imgTransferenciaApto" runat="server" ImageAlign="Middle" ImageUrl="~/images/transferenciaApto.png"
+                                OnClientClick="return false" />Transferir os integrantes do apartamento não
+                        programado<br />
+                            <asp:ImageButton ID="imgBtnPermutar" runat="server" ImageAlign="Middle" ImageUrl="~/images/Permutar.png"
+                                OnClientClick="return false" />
+                            Permutar o apartamento do integrante<br />
+                            <asp:ImageButton ID="imgBtnAcomodacao" runat="server" ImageAlign="Middle" ImageUrl="~/images/PessoaSolicitacao.gif"
+                                OnClientClick="return false" />
+                            Entrar todos os integrantes da acomodação<br />
+                            <asp:ImageButton ID="imgBtnReserva" runat="server" ImageAlign="Middle" ImageUrl="~/images/PessoaReserva.gif"
+                                OnClientClick="return false" />
+                            Entrar todos os integrantes da reserva<br />
+                            <asp:ImageButton ID="imgBtnCortesia" runat="server" ImageAlign="Middle" ImageUrl="~/images/CortesiaAzul.png"
+                                OnClientClick="return false" />Autorizar cortesias para o integrante<br />
+                            <asp:ImageButton ID="imgPlaca" runat="server" ImageAlign="Middle" ImageUrl="~/images/placa.png"
+                                OnClientClick="return false" />Integrante com placa lançada<br />
+                            <asp:ImageButton ID="imgAptoLimpo" runat="server" ImageAlign="Middle" ImageUrl="~/images/StatusAptoBranco.gif"
+                                OnClientClick="return false" />&nbsp;Apartamento limpo<br />
+                            <asp:ImageButton ID="imgAptoOcupado" runat="server" ImageAlign="Middle" ImageUrl="~/images/StatusAptoAzul.gif"
+                                OnClientClick="return false" />&nbsp;Apartamento ocupado<br />
+                            <asp:ImageButton ID="imgAptoArrumacao" runat="server" ImageAlign="Middle" ImageUrl="~/images/StatusAptoAmarelo.gif"
+                                OnClientClick="return false" />&nbsp;Apartamento em arrumação<br />
+                            <asp:ImageButton ID="imgAptoManutencao" runat="server" ImageAlign="Middle" ImageUrl="~/images/StatusAptoCinza.gif"
+                                OnClientClick="return false" />&nbsp;Apartamento em manutenção<br />
+                            <asp:Image ID="imgCorAptoNormais" runat="server"
+                                ImageUrl="~/images/CorAptoPreto.png" Width="36px" />
+                            &nbsp;<font color="black">Apartamentos Normais</font><br />
+                            <asp:Image ID="imgCorAptoEspeciais" runat="server"
+                                ImageUrl="~/images/CorAptoPink.png" Width="36px" />
+                            &nbsp;<font color="#ff3399">Apartamentos Especiais<br />
+                                <asp:Image ID="imgCorAptoFecomercio" runat="server"
+                                    ImageUrl="~/images/CorAptoVermelho.png" Width="36px" />
+                                &nbsp;<font color="red">Apartamentos do Fecomércio</font></font><br />
+                            <asp:Image ID="imgCorAptoRT" runat="server"
+                                ImageUrl="~/images/CorAptoVerde.png" Width="36px" />
+                            &nbsp;<font color="green">Apartamentos de Reserva Técnica<br />
+                                <asp:Image ID="imgCorAptoFlutuante" runat="server"
+                                    ImageUrl="~/images/CorAptoRoxo.png" Width="36px" />
+                                &nbsp;<font color="#993399">Apartamentos Flutuantes - Alta Temporada</font></font><br />
+                            <asp:Image ID="imgCorAptoRTM" runat="server"
+                                ImageUrl="~/images/CorAptoAzul.png" Width="36px" />
+                            &nbsp;<font color="blue">Apartamentos de Reserva Técnica Manutenção</font><br />
+                        </asp:Panel>
+                    </asp:Panel>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+            <asp:ContentPlaceHolder ID="conPlaHolTurismoSocial" runat="server">
+            </asp:ContentPlaceHolder>
+            <span lang="pt-br">&nbsp;&nbsp;&nbsp; </span>
+        </div>
+    </form>
+</body>
+</html>

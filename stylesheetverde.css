@@ -1,0 +1,2056 @@
+﻿BODY
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 68%
+}
+.formLinkWeb
+{
+    color: green;
+    font-family: verdana;
+    font-size: 100%;
+    text-decoration: blink;
+}
+A.toolbarNavLink:link
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarNavLink:visited
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarNavLink:active
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarNavLink:hover
+{
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+A.toolbarRecLink:link
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarRecLink:visited
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarRecLink:active
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarRecLink:hover
+{
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+A.toolbarTransLink:link
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarTransLink:visited
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarTransLink:active
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarTransLink:hover
+{
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+A.toolbarDataSetLink:link
+{
+    COLOR: black;
+    CURSOR: default
+}
+A.toolbarDataSetLink:visited
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarDataSetLink:active
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarDataSetLink:hover
+{
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+A.tabViewTopLink:link
+{
+    COLOR: black;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.tabViewTopLink:visited
+{
+    COLOR: black;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.tabViewTopLink:active
+{
+    COLOR: black;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.tabViewTopLink:hover
+{
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+A.tabViewBottomLink:link
+{
+    COLOR: black;
+    TEXT-DECORATION: none
+}
+A.tabViewBottomLink:visited
+{
+    COLOR: black;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.tabViewBottomLink:active
+{
+    COLOR: black;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.tabViewBottomLink:hover
+{
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+A.tabViewLeftLink:link
+{
+    COLOR: black;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.tabViewLeftLink:visited
+{
+    COLOR: black;
+    TEXT-DECORATION: none
+}
+A.tabViewLeftLink:active
+{
+    COLOR: black;
+    TEXT-DECORATION: none
+}
+A.tabViewLeftLink:hover
+{
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+A.tabViewRightLink:link
+{
+    COLOR: black;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.tabViewRightLink:visited
+{
+    COLOR: black;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.tabViewRightLink:active
+{
+    COLOR: black;
+    TEXT-DECORATION: none
+}
+A.formReference:hover
+{
+    COLOR: black;
+    TEXT-DECORATION: underline
+}
+A.formReference:link
+{
+    COLOR: black;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.formReference:visited
+{
+    COLOR: black;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.formReference:active
+{
+    COLOR: black;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.formReference:hover
+{
+    COLOR: red;
+    TEXT-DECORATION: none
+}
+A:link
+{
+    COLOR: blue;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    COLOR: blue;
+    TEXT-DECORATION: none
+}
+A:active
+{
+    COLOR: blue;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    TEXT-DECORATION: underline
+}
+.viewHeader
+{
+    color:white;
+    padding:2 0 2 4;
+    font-family: Verdana, Arial;
+    FONT-SIZE: 100%;
+    margin-bottom:16;
+    margin-top:16;
+    BACKGROUND-IMAGE: url(/aspx_styles/images/green_logo2.gif);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: #508B50;
+    font-weight:bold;
+    width: 100%;
+    height: 18;
+    border: none;
+}
+.errorMessage
+{
+    BORDER-BOTTOM: maroon;
+    BORDER-LEFT: maroon;
+    BORDER-RIGHT: maroon;
+    BORDER-TOP: maroon;
+    COLOR: red;
+    FONT-SIZE: 100%;
+    MARGIN-BOTTOM: 4px;
+    MARGIN-TOP: 4px
+}
+
+.viewHeaderOLD 
+{
+    BORDER-BOTTOM: #8fbc8f 1px solid;
+    COLOR: black;
+    FONT-SIZE: 150%;
+    MARGIN-BOTTOM: 4px;
+    MARGIN-TOP: 8px;
+    PADDING-BOTTOM: 0px
+}
+
+.tableHeading
+{
+    BACKGROUND-COLOR: #8fbc8f;
+    FONT-WEIGHT: bold
+}
+.tableRow
+{
+}
+.tableRowOdd
+{
+    BACKGROUND-COLOR: #f0fff0;
+}
+.tableRowEven
+{
+    BACKGROUND-COLOR: white;
+}
+.tableBody
+{
+    BACKGROUND-COLOR: #8fbc8f;
+    FONT-SIZE: 100%;
+    border-left: 1 solid #2f652f;
+    border-top: 1 solid #2f652f;
+}
+.tableColumnCaption
+{
+   border-right: 1 solid #2f652f;
+   border-bottom: 1 solid #2f652f;
+   padding-top: 3;
+   padding-bottom: 3;
+}
+.tableColumnCell
+{
+   border-right: 1 solid #2f652f;
+   border-bottom: 1 solid #2f652f;
+}
+.formTable
+{
+    FONT-SIZE: 100%
+}
+.formButton
+{
+    font-family: verdana;
+    FONT-SIZE: 100%
+}
+.formCheckBox
+{
+    font-family: verdana;
+}
+.formPassword
+{
+    font-family: verdana;
+    FONT-SIZE: 100%
+}
+.formRadio
+{
+    font-family: verdana;
+}
+.formReset
+{
+    font-family: verdana;
+    FONT-SIZE: 100%
+}
+.formSelect
+{
+    font-family: verdana;
+    FONT-SIZE: 100%
+}
+.formLabel
+{
+    COLOR: gray;
+    FONT-SIZE:110%;
+    text-decoration: none;
+}
+.formLabelEscuro
+{
+    color: black;
+    font-size: 110%;
+    text-decoration: none;
+}
+.a {display:block; width:25px; -webkit-transition-duration:.3s; position:relative;}
+a.formLabelEscuro:hover {
+    -webkit-transform: scale(2.5);
+    transform: scale(2.5);
+    -o-transform: scale(2.5);
+    -moz-transform: scale(2.0);
+    -ms-transform: scale(2.5);
+    z-index: 5;
+    border-radius:8px;
+    font-weight:bold;
+}
+.formLabel2
+{
+    COLOR: gray;
+    border: none;
+}
+.formHtml
+{
+    FONT-SIZE:100%;
+}
+.formRuler
+{
+    BACKGROUND-COLOR: #8fbc8f;
+}
+
+.formSubmit
+{
+    font-family: verdana;
+    FONT-SIZE: 100%
+}
+.formText
+{
+    font-family: verdana;
+    FONT-SIZE: 110%
+}
+.formText2
+{
+    font-family: verdana;
+}
+.formTextArea
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 100%;
+}
+.toolbarTable
+{
+    MARGIN-BOTTOM: 4px;
+    MARGIN-TOP: 4px
+}
+.toolbarRecLinkCell
+{
+    BACKGROUND-COLOR: gainsboro;
+    BORDER-BOTTOM: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    COLOR: white;
+    FONT-FAMILY: 'MS Sans Serif';
+    FONT-SIZE: 68%;
+    PADDING-LEFT: 8px;
+    PADDING-RIGHT: 8px
+}
+.toolbarNavLinkCell
+{
+    BACKGROUND-COLOR: silver;
+    BORDER-BOTTOM: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    FONT-FAMILY: 'MS Sans Serif';
+    FONT-SIZE: 68%;
+    PADDING-LEFT: 8px;
+    PADDING-RIGHT: 8px
+}
+.toolbarTransLinkCell
+{
+    BACKGROUND-COLOR: darkgray;
+    BORDER-BOTTOM: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    FONT-FAMILY: 'MS Sans Serif';
+    FONT-SIZE: 68%;
+    PADDING-LEFT: 8px;
+    PADDING-RIGHT: 8px
+}
+.toolbarDataSetLinkCell
+{
+    BACKGROUND-COLOR: darkgray;
+    BORDER-BOTTOM: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    FONT-FAMILY: 'MS Sans Serif';
+    FONT-SIZE: 68%;
+    PADDING-LEFT: 8px;
+    PADDING-RIGHT: 8px
+}
+.toolbarRecBtn
+{
+    font-family: verdana;
+    BACKGROUND-COLOR: gainsboro;
+    FONT-SIZE: 68%
+}
+.toolbarRecBtnCell
+{
+    FONT-WEIGHT: bold
+}
+.toolbarNavBtn
+{
+    font-family: verdana;
+    BACKGROUND-COLOR: silver;
+    FONT-SIZE: 68%
+}
+.toolbarNavBtnCell
+{
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none
+}
+.toolbarTransBtn
+{
+    font-family: verdana;
+    BACKGROUND-COLOR: darkgray;
+    FONT-SIZE: 68%
+}
+.toolbarTransBtnCell
+{
+}
+.toolbarDataSetBtn
+{
+    font-family: verdana;
+    BACKGROUND-COLOR: darkgray;
+    FONT-SIZE: 68%
+}
+.toolbarDataSetBtnCell
+{
+}
+.tabViewBottomArea
+{
+}
+.tabViewLeftArea
+{
+}
+.tabViewRightArea
+{
+}
+.tabViewTopArea
+{
+    BACKGROUND-COLOR: #8fbc8f
+}
+.tabViewWorkArea
+{
+}
+.tabViewTable
+{
+    FONT-SIZE: 100%
+}
+.tabViewTopLinkCell
+{
+}
+.tabViewTopLinkSelected
+{
+    BACKGROUND-COLOR: #006400;
+    BORDER-LEFT: white 1px solid;
+    BORDER-RIGHT: white 1px solid;
+    BORDER-TOP: medium none;
+    COLOR: white;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    PADDING-LEFT: 4px;
+    PADDING-RIGHT: 4px
+}
+.tabViewBottomLinkCell
+{
+}
+.tabViewBottomLinkSelected
+{
+}
+.tabViewLeftLinkCell
+{
+}
+.tabViewLeftLinkSelected
+{
+}
+.tabViewRightLinkCell
+{
+}
+.tabViewRightLinkSelected
+{
+}
+.pageLogo 
+{
+  background-color:white;
+  background-image:url('images/green_logo1.gif');
+  background-repeat:no-repeat;
+}
+.pageLogoTitle1
+{
+    COLOR: white;
+    FONT-FAMILY: Tahoma;
+    FONT-SIZE: 20px;
+    FONT-WEIGHT: normal;
+    MARGIN-LEFT: 12px;
+    MARGIN-TOP: -5px
+}
+.pageLogoTitle2
+{
+    COLOR: white;
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: bold;
+    MARGIN-LEFT: 12px;
+    MARGIN-TOP: 4px;
+}
+.pageHorizDivTop {background-color:white}
+.pageHorizDivBottom {background-color:black}
+.pageVertDiv {background-color:#8fbc8f}
+.pageWorkArea {
+  padding-right:10;
+  padding-bottom:10;
+  background-color:white;
+  font-size:68%;
+  background-image:none;
+  background-repeat:no-repeat;
+  background-position:top right;
+}
+
+.infoMessage
+{
+  font-size:100%;
+  padding-top:4pt;
+  padding-bottom:4pt;
+}
+a.tableSortableCaption:link, a.tableSortableCaption:active, a.tableSortableCaption:visited
+{
+   color: black;
+   text-decoration: underline;
+}
+
+a.tableSortableCaption:hover
+{
+  color: firebrick;
+}
+body {
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 68%
+}
+A.toolbarNavLink:link
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarNavLink:visited
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarNavLink:active
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarNavLink:hover
+{
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+A.toolbarRecLink:link
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarRecLink:visited
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarRecLink:active
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarRecLink:hover
+{
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+A.toolbarTransLink:link
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarTransLink:visited
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarTransLink:active
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarTransLink:hover
+{
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+A.toolbarDataSetLink:link
+{
+    COLOR: black;
+    CURSOR: default
+}
+A.toolbarDataSetLink:visited
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarDataSetLink:active
+{
+    COLOR: black;
+    CURSOR: default;
+    TEXT-DECORATION: none
+}
+A.toolbarDataSetLink:hover
+{
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+A.tabViewTopLink:link
+{
+    COLOR: black;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.tabViewTopLink:visited
+{
+    COLOR: black;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.tabViewTopLink:active
+{
+    COLOR: black;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.tabViewTopLink:hover
+{
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+A.tabViewBottomLink:link
+{
+    COLOR: black;
+    TEXT-DECORATION: none
+}
+A.tabViewBottomLink:visited
+{
+    COLOR: black;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.tabViewBottomLink:active
+{
+    COLOR: black;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.tabViewBottomLink:hover
+{
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+A.tabViewLeftLink:link
+{
+    COLOR: black;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.tabViewLeftLink:visited
+{
+    COLOR: black;
+    TEXT-DECORATION: none
+}
+A.tabViewLeftLink:active
+{
+    COLOR: black;
+    TEXT-DECORATION: none
+}
+A.tabViewLeftLink:hover
+{
+    FONT-WEIGHT:bold;
+    TEXT-DECORATION: none
+}
+A.tabViewRightLink:link
+{
+    COLOR: black;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.tabViewRightLink:visited
+{
+    COLOR: black;
+    TEXT-DECORATION: none
+}
+A.tabViewRightLink:active
+{
+    COLOR: black;
+    TEXT-DECORATION: none
+}
+.errorMessage
+{
+    BORDER-BOTTOM: maroon;
+    BORDER-LEFT: maroon;
+    BORDER-RIGHT: maroon;
+    BORDER-TOP: maroon;
+    COLOR: red;
+    FONT-SIZE: 100%;
+    MARGIN-BOTTOM: 4px;
+    MARGIN-TOP: 4px
+}
+.tableHeading
+{
+    BACKGROUND-COLOR: blue;
+    FONT-WEIGHT: bold
+}
+.tableRow
+{
+}
+.tableRowOdd
+{
+    BACKGROUND-COLOR: #f0f8ff;
+}
+.tableRowEven
+{
+    BACKGROUND-COLOR: white;
+}
+.tableBody
+{
+    BACKGROUND-COLOR: blue;
+    FONT-SIZE: 110%;
+    border-left: 1 solid #395992;
+    border-top: 1 solid #395992;
+}
+.tableColumnCaption
+{
+   border-right: 1 solid lightsteelblue;
+   border-bottom: 1 solid lightsteelblue;
+   padding-top: 1;
+   padding-bottom: 1;
+}
+.tableColumnCaptionCalendar
+{
+}
+.tableColumnCell
+{
+   border-right: 1 solid lightsteelblue;
+   border-bottom: 1 solid lightsteelblue;
+}
+.tableColumnCellCalendar
+{
+}
+.formTable
+{
+    FONT-SIZE: 100%
+}
+.formLabelTitulo
+{
+    COLOR: blue;
+    FONT-SIZE:110%;
+    FONT-WEIGHT: bold
+}
+.formLabelTabContainer
+{
+    COLOR: black;
+    FONT-SIZE:80%;
+}
+.formHtml
+{
+    FONT-SIZE:100%;
+}
+.formRulerEscuro
+{
+    BACKGROUND-COLOR: gray;
+}
+.formButton
+{
+    font-family: verdana;
+    FONT-SIZE: 100%
+}
+.formCheckBox
+{
+    font-family: verdana;
+}
+.formPassword
+{
+    font-family: verdana;
+    FONT-SIZE: 100%
+}
+.formRadio
+{
+    font-family: verdana;
+}
+.formReset
+{
+    font-family: verdana;
+    FONT-SIZE: 100%
+}
+.formSelect
+{
+    font-family: verdana;
+    FONT-SIZE: 110%;
+}
+.formSubmit
+{
+    font-family: verdana;
+    FONT-SIZE: 100%
+}
+.formText
+{
+    font-family: verdana;
+    FONT-SIZE: 110%
+}
+.formTextArea
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 110%;
+}
+.toolbarTable
+{
+    MARGIN-BOTTOM: 4px;
+    MARGIN-TOP: 4px
+}
+.toolbarRecLinkCell
+{
+    BACKGROUND-COLOR: gray;
+    BORDER-BOTTOM: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    COLOR: white;
+    FONT-FAMILY: 'MS Sans Serif';
+    FONT-SIZE: 68%;
+    PADDING-LEFT: 8px;
+    PADDING-RIGHT: 8px
+}
+.toolbarNavLinkCell
+{
+    BACKGROUND-COLOR: silver;
+    BORDER-BOTTOM: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    FONT-FAMILY: 'MS Sans Serif';
+    FONT-SIZE: 68%;
+    PADDING-LEFT: 8px;
+    PADDING-RIGHT: 8px
+}
+.toolbarTransLinkCell
+{
+    BACKGROUND-COLOR: gray;
+    BORDER-BOTTOM: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    FONT-FAMILY: 'MS Sans Serif';
+    FONT-SIZE: 68%;
+    PADDING-LEFT: 8px;
+    PADDING-RIGHT: 8px
+}
+.toolbarDataSetLinkCell
+{
+    BACKGROUND-COLOR: gray;
+    BORDER-BOTTOM: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    FONT-FAMILY: 'MS Sans Serif';
+    FONT-SIZE: 68%;
+    PADDING-LEFT: 8px;
+    PADDING-RIGHT: 8px
+}
+.toolbarRecBtn
+{
+    font-family: verdana;
+    BACKGROUND-COLOR: gray;
+    FONT-SIZE: 68%
+}
+.toolbarRecBtnCell
+{
+    FONT-WEIGHT: bold
+}
+.toolbarNavBtn
+{
+    font-family: verdana;
+    BACKGROUND-COLOR: silver;
+    FONT-SIZE: 68%
+}
+.toolbarNavBtnCell
+{
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none
+}
+.toolbarTransBtn
+{
+    font-family: verdana;
+    BACKGROUND-COLOR: gray;
+    FONT-SIZE: 68%
+}
+.toolbarTransBtnCell
+{
+}
+.toolbarDataSetBtn
+{
+    font-family: verdana;
+    BACKGROUND-COLOR: gray;
+    FONT-SIZE: 68%
+}
+.toolbarDataSetBtnCell
+{
+}
+.tabViewBottomArea
+{
+    BACKGROUND-COLOR: blue;
+}
+.tabViewLeftArea
+{
+    BACKGROUND-COLOR: white;
+    BORDER-RIGHT: lightsteelblue 1px solid;
+    BORDER-TOP: lightsteelblue 1px solid;
+    PADDING-TOP:8pt;
+    MARGIN-RIGHT:10pt;
+}
+.tabViewRightArea
+{
+    BACKGROUND-COLOR: white;
+    BORDER-LEFT: lightsteelblue 1px solid;
+    BORDER-TOP: lightsteelblue 1px solid;
+    PADDING-TOP:8pt;
+    MARGIN-RIGHT:10pt;
+}
+.tabViewTopArea
+{
+    BACKGROUND-COLOR: blue;
+}
+.tabViewWorkArea
+{
+}
+.tabViewTable
+{
+    FONT-SIZE: 100%
+}
+.tabViewTopLinkCell
+{
+}
+.tabViewTopLinkSelected
+{
+    BACKGROUND-COLOR: navy;
+    BORDER-LEFT: white 1px solid;
+    BORDER-RIGHT: white 1px solid;
+    BORDER-TOP: medium none;
+    COLOR: white;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    PADDING-LEFT: 4px;
+    PADDING-RIGHT: 4px
+}
+.tabViewBottomLinkCell
+{
+}
+.tabViewBottomLinkSelected
+{
+    BACKGROUND-COLOR: gray;
+    BORDER-LEFT: white 1px solid;
+    BORDER-RIGHT: white 1px solid;
+    BORDER-TOP: medium none;
+    COLOR: white;
+    FONT-SIZE: 80%;
+    FONT-WEIGHT: bold;
+    PADDING-LEFT: 4px;
+    PADDING-RIGHT: 4px
+}
+.tabViewLeftLinkCell
+{
+    COLOR: black;
+    FONT-SIZE: 68%;
+    FONT-WEIGHT: bold;
+    PADDING: 2 20 2 4;
+}
+.tabViewLeftLinkSelected
+{
+    BORDER-LEFT: lightsteelblue 1px solid;
+    BORDER-TOP: lightsteelblue 1px solid;
+    BORDER-BOTTOM: lightsteelblue 1px solid;
+    COLOR: black;
+    FONT-SIZE: 68%;
+    FONT-WEIGHT: bold;
+    PADDING: 2 20 2 4;
+}
+.tabViewRightLinkCell
+{
+    COLOR: black;
+    FONT-SIZE: 68%;
+    FONT-WEIGHT: bold;
+    PADDING: 2 4 2 20;
+}
+.tabViewRightLinkSelected
+{
+    BORDER-RIGHT: lightsteelblue 1px solid;
+    BORDER-TOP: lightsteelblue 1px solid;
+    BORDER-BOTTOM: lightsteelblue 1px solid;
+    COLOR: black;
+    FONT-SIZE: 68%;
+    FONT-WEIGHT: bold;
+    PADDING: 2 4 2 20;
+}
+.pageLogo
+{
+    BACKGROUND-COLOR: white;
+    BACKGROUND-IMAGE: url(images/green_logo1.gif);
+    BACKGROUND-REPEAT: no-repeat;
+    FONT-FAMILY: Tahoma;
+    COLOR: white;
+    FONT-SIZE: 20px;
+    FONT-WEIGHT: normal;
+    MARGIN-LEFT: 12px;
+    MARGIN-TOP: -5px
+}
+.pageLogotipo
+{
+    background-color: transparent;
+    BACKGROUND-IMAGE: url(images/logotipo.gif);
+    BACKGROUND-REPEAT: no-repeat
+}
+.pageLogoTitle1
+{
+    COLOR: white;
+    FONT-FAMILY: Tahoma;
+    FONT-SIZE: 20px;
+    FONT-WEIGHT: normal;
+    MARGIN-LEFT: 12px;
+    MARGIN-TOP: -5px
+}
+.pageLogoTitle2
+{
+    COLOR: white;
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: bold;
+    MARGIN-LEFT: 12px;
+    MARGIN-TOP: 4px
+}
+.pageHorizDivTop
+{
+    BACKGROUND-COLOR: white
+}
+.pageHorizDivBottom
+{
+    BACKGROUND-COLOR: black
+}
+.pageVertDiv
+{
+    BACKGROUND-COLOR: blue
+}
+.pageWorkArea
+{
+    BACKGROUND-COLOR: white;
+    BACKGROUND-IMAGE: none;
+    BACKGROUND-POSITION: right top;
+    BACKGROUND-REPEAT: no-repeat;
+    FONT-SIZE: 68%;
+    PADDING-BOTTOM: 10px;
+    PADDING-RIGHT: 10px
+}
+
+.pageBarricada
+{
+    background-color: transparent;
+    BACKGROUND-IMAGE: url(images/barricada.gif);
+    BACKGROUND-REPEAT: no-repeat
+}
+a.tableSortableCaption:link, a.tableSortableCaption:active, a.tableSortableCaption:visited
+{
+   color: black;
+   text-decoration: underline;
+}
+
+.ColocaHand
+{
+    cursor: pointer;
+}
+
+.formValor
+{
+    font-family: verdana;
+    FONT-SIZE: 80%
+}
+.formTextReduzido
+{
+    font-family: verdana;
+    FONT-SIZE: 80%
+}
+
+.btnConsultar
+{
+	background-color: transparent;
+	background-image: url(images/BotaoConsultar.gif);
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 90px;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+
+.btnConsultarSohFigura
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoConsultarSohFigura.gif);
+	background-repeat: no-repeat;
+	height: 35;
+	width: 30;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+
+.btnVerImpressao
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoVisImpressao.gif);
+	background-repeat: no-repeat;
+	height: 35;
+	width: 100;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+.btnInserir
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoInserir.gif);
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 100px;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+
+.btnInserirSohFigura
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoInserirSohFigura.gif);
+	background-repeat: no-repeat;
+	height: 35;
+	width: 30;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+
+.btnInserirMaisMedio
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoInserirMaisMedio.gif);
+	background-repeat: no-repeat;
+	height: 35;
+	width: 130;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+
+.btnConfirmarSohFigura
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoConfirmarSohFigura.gif);
+	background-repeat: no-repeat;
+	height: 24;
+	width: 24;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.btnMostrarTodasSohFigura
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoMostrarTodasSohFigura.gif);
+	background-repeat: no-repeat;
+	height: 24;
+	width: 24;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.btnAlterarSohFigura
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoAlterarSohFigura.gif);
+	background-repeat: no-repeat;
+	height: 35;
+	width: 30;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+.btnExcluirSohFigura
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoExcluirSohFigura.gif);
+	background-repeat: no-repeat;
+	height: 35;
+	width: 31;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+
+.btnExcluir
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoExcluir.gif);
+	background-repeat: no-repeat;
+	height: 35;
+	width: 100;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+
+.btnVoltar
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoVoltar.gif);
+	background-repeat: no-repeat;
+	height: 35;
+	width: 100;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+.btnVoltarSohFigura
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoVoltarSohFigura.gif);
+	background-repeat: no-repeat;
+	height: 35;
+	width: 30;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+
+.btnAvancar
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoAvancar.gif);
+	background-repeat: no-repeat;
+	height: 35;
+	width: 100;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+
+.btnConfirmar
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoConfirmar.gif);
+	background-repeat: no-repeat;
+	height: 35;
+	width: 90;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+
+.btnCancelar
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoCancelar.gif);
+	background-repeat: no-repeat;
+	height: 35;
+	width: 100;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+
+.btnGravarDefinitivamente
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoGravarDefinitivamente.gif);
+	background-repeat: no-repeat;
+	height: 35;
+	width: 177;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+
+.btnImprimir
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoImprimir.gif);
+	background-repeat: no-repeat;
+	height: 35;
+	width: 100;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+
+.btnAlterar
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoAlterar.gif);
+	background-repeat: no-repeat;
+	height: 88;
+	width: 176;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+
+.btnAjuda
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoAjuda.gif);
+	background-repeat: no-repeat;
+	height: 35;
+	width: 100;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+
+.btnLimparSohFigura
+{
+	background-color: transparent;
+	background-image: url(images/BotaoLimparSohFigura.gif);
+	background-repeat: no-repeat;
+	height: 24;
+	width: 24;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
+.btnLimpar
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoLimpar.gif);
+	background-repeat: no-repeat;
+	height: 35;
+	width: 100;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+
+.btnParametro
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoParametro.gif);
+	background-repeat: no-repeat;
+	height: 35;
+	width: 100;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+.btnPrestadores
+{
+	background-color: transparent;
+	background-image: url(../images/BotaoPrestadores.gif);
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 90px;
+	border-width: 0;
+	font-family: verdana;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+    cursor: pointer;
+}
+
+.menuFixo {
+  margin: 0;
+  position: fixed;
+  top: 60px;
+  left: 0px;
+  width: 8.5em;
+  right: auto;
+  z-index: 10;
+}
+
+.cabecalhoFixo {
+  margin: 0;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: auto;
+  z-index: 10;
+}
+
+.filtroFixo {
+  position: relative;
+}
+
+.filtroFixoSiteMap {
+  margin: 0;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: auto;
+  z-index: 0;
+}
+
+.principalFixo {
+  margin: 0;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  right: auto;
+  z-index: 0;
+}
+
+.principalFixoSiteMap {
+  margin: 0;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  right: auto;
+  z-index: 0;
+}
+
+.gridFixo {
+  margin: 0;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  right: auto;
+  z-index: 0;
+}
+
+.gridFixoSiteMap {
+  margin: 0;
+  position: relative;
+  top: 10px;
+  left: 0px;
+  right: auto;
+  z-index: 0;
+}
+
+.principalTopo {
+  margin: 0;
+  position: relative;
+  top: 6em;
+  left: 180px;
+  right: auto;
+  z-index: 0;
+}
+
+.gridHeaderFixo 
+{
+  background-color: #8fbc8f;
+  position: relative;
+  top: -1px;
+}
+
+.posicaoFixa 
+{
+	position: fixed;
+}
+
+/* ajax__tab_ie-theme theme */
+
+        .ajax__tab_technorati-theme .ajax__tab_header 
+        {
+            font-family:"Helvetica Neue", Arial, Sans-Serif;
+            background:url(images/tab-line.png) repeat-x bottom;
+            font-size:12px;
+            display:block;
+        }
+        .ajax__tab_technorati-theme .ajax__tab_header .ajax__tab_outer 
+        {
+            background:url(images/tab.png) no-repeat left top;
+            border-color:#222;
+            color:#222;
+            padding-left:10px;
+            margin-right:3px;
+        }
+        .ajax__tab_technorati-theme .ajax__tab_header .ajax__tab_inner 
+        {
+            background:url(images/tab.png) no-repeat right top;
+            border-color:#666;
+            color:#666;
+            padding:3px 10px 2px 0px;
+        }
+        .ajax__tab_technorati-theme .ajax__tab_hover .ajax__tab_inner 
+        {
+            color:#000000;
+            cursor:pointer;
+        }
+        .ajax__tab_technorati-theme .ajax__tab_active .ajax__tab_outer 
+        {
+            background:url(images/tab.png) no-repeat 0pt -40px;
+            border-bottom-color:#ffffff;
+        }
+        .ajax__tab_technorati-theme .ajax__tab_active .ajax__tab_inner 
+        {
+            background:url(images/tab.png) no-repeat right -40px;
+            color:#000000;
+            border-color:#333
+        }
+        .ajax__tab_technorati-theme .ajax__tab_body 
+        {
+            font-family:verdana,tahoma,helvetica;
+            font-size:10pt;
+            padding:8px;
+            background-color:#f0fff0;
+            border:solid 1px #d7d7d7;
+            border-top-width:0;
+        }
+
+.formLabelWeb
+{
+    COLOR: green;
+    font-family:verdana;
+    FONT-SIZE:130%;
+}
+.formLabelWebChecked
+{
+    color: green;
+    font-family: verdana;
+    font-size: 150%;
+    font-style: italic;
+    font-weight: bold; 
+    background-color: #f0fff0;
+}
+.cellHeader
+{
+    COLOR: white;
+    FONT-SIZE: 7pt;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none;
+    background: #1c5e55;
+}
+.menuToolBar
+{
+  padding-left:4;
+  background-color:lightsteelblue;
+  color:black;
+  font-size:100%
+}
+.menuTOC {list-style-type:none}
+.menuTOCItem {padding-top:5;padding-bottom:5}
+.menuTOCDesc {margin-top:0}
+
+.menuToolBarSelectedItem { font-weight:bold;cursor:default;color:black }
+
+A.menuToolBarItem:active  { font-weight:bold;}
+A.menuToolBarItem:link    { color:white;font-weight:bold;text-decoration:none}
+A.menuToolBarItem:visited { font-weight:bold;color:white}
+A.menuToolBarItem:hover   { font-weight:bold;text-decoration:none;color:black}
+
+UL.menuPage {margin-left:16px;margin-top:0px;font-size:68%}
+
+A.menuTocHeading:active  { color:black;font-weight:normal}
+A.menuTocHeading:link    { color:black;font-weight:normal;text-decoration:none}
+A.menuTocHeading:visited { color:black;font-weight:normal}
+A.menuTocHeading:hover   { color:black;font-weight:normal;text-decoration:underline}
+
+A.menuTocItem:active  { color:black; }
+A.menuTocItem:link    { color:black}
+A.menuTocItem:visited { color:black; }
+A.menuTocItem:hover   { color:black;text-decoration:underline }
+
+SPAN.menuTocItemSelected  { color:black;font-weight:bold;cursor:default}
+
+LI.menuTocListItem    {list-style-type:none;padding: 5 0 5 0}
+
+UL.menuItemsShow, UL.menuItemHide { margin-top:0px;    margin-bottom:2px; }
+UL UL LI { margin-left:-24px; margin-top:0.1em }
+
+LI.menuShowHide        { list-style-type:none; list-style-image:url('/aspx_styles/images/plus.gif');cursor: pointer;margin-bottom:2pt;margin-top:2pt}
+LI.menuShowHideShowing { list-style-type:none; list-style-image:url('/aspx_styles/images/minus.gif');cursor: pointer;margin-bottom:2pt;margin-top:2pt}
+
+UL.menuItemsShow       { list-style-type:none; list-style-image:none}
+UL.menuItemsHide       { list-style-type:none; list-style-image:url('/aspx_styles/images/minus.gif');display:none}
+
+.gridBorderColor
+{
+    border-color:#8fbc8f;
+    border-style:solid;
+    border-width:1px;
+    z-index: -1;
+}
+.imgInserir
+{
+	height: 25px;
+	width: 90px; 
+	background-color: transparent;
+	background-image: url(images/Reserva_add.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	-moz-border-radius: 7px; /* para funcionar no Firefox*/
+	-webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+	border-radius: 7px;
+	height: 26px;
+}
+.imgLupa
+{
+	height: 25px;
+	width: 110px; 
+	vertical-align: middle;
+	background-color: transparent;
+	background-image: url('images/Lupa.png');
+	background-repeat: no-repeat;
+	cursor: pointer;
+	-moz-border-radius: 7px; /* para funcionar no Firefox*/
+	-webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+	border-radius: 7px;
+	height: 26px;
+}
+.imgLimpar
+{
+	height: 25px;
+	width: 90px; 
+	vertical-align: middle;
+	background-color: transparent;
+	background-image: url('images/limpar.png');
+	background-repeat: no-repeat;
+	cursor: pointer;
+	-moz-border-radius: 7px; /* para funcionar no Firefox*/
+	-webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+	border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+
+.imgAbc
+{
+	background-image: url(images/Abc.png);
+	background-repeat: no-repeat;
+}
+.imgNovo
+{
+	height: 25px;
+	width: 90px; 
+	vertical-align: middle;
+	background-color: transparent;
+	background-image: url(images/Novo.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	-moz-border-radius: 7px; /* para funcionar no Firefox*/
+	-webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+	border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+.imgGravar
+{
+	height: 25px;
+	width: 90px; 
+	vertical-align: middle;
+	background-color: transparent;
+	background-image: url(images/Gravar.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	-moz-border-radius: 7px; /* para funcionar no Firefox*/
+	-webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+	border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+.imgExcluir
+{
+	height: 25px;
+	width: 90px; 
+	vertical-align: middle;
+	background-color: transparent;
+	background-image: url(images/Excluir.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	-moz-border-radius: 7px; /* para funcionar no Firefox*/
+	-webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+	border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+.imgEmail
+{
+	vertical-align: middle;
+	background-color: transparent;
+	background-image: url(images/email.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	-moz-border-radius: 7px; /* para funcionar no Firefox*/
+	-webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+	border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+.imgVoltar
+{
+	height: 25px;
+	width: 110px;
+	vertical-align: middle;
+	background-color: transparent;
+	background-color: transparent;
+	background-image: url(images/voltar.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	-moz-border-radius: 7px; /* para funcionar no Firefox*/
+	-webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+	border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+.imgCaixa
+{
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url(images/caixa.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+	-moz-border-radius: 7px; /* para funcionar no Firefox*/
+	-webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+	border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+.imgIndividual
+{
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url(images/masculino.png);
+    background-repeat: no-repeat;
+}
+.modalBackground
+{
+    background-color: #f0fff0;
+    filter: alpha(opacity=50);
+    opacity: .50;
+}
+.opaco
+{
+    filter: alpha(opacity=50);
+    opacity: .50;
+}
+.aplicaTransparencia
+{
+    background-color:Transparent;
+    border-style:none; 
+ }
+
+.imgRelatorio
+{
+	height: 25px;
+	width: 100px; 
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url(images/Report.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+	-moz-border-radius: 7px; /* para funcionar no Firefox*/
+	-webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+	border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+.imgEstatistica
+{
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url(images/Estatistica.png);
+    background-repeat: no-repeat;
+    width: 110px;
+}
+.FonteGrandeApartamento
+{
+	font-size:40px;
+	font-family:Times New Roman; 
+	font-weight:bold;
+}
+.aplicaTransparencia
+{
+	background-color:Transparent;
+}
+.btnConsultarReserva
+{
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url(images/lupa.jpg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-style:none; 
+    height:25px;
+    width:25px;
+}
+.btnIrUltimoRegistro
+{
+	height: 25px;
+	width: 110px; 
+	vertical-align: middle;
+	background-color: transparent;
+	background-image: url(images/CalNextYear.gif);
+	background-repeat: no-repeat;
+    cursor: pointer;
+	-moz-border-radius: 7px; /* para funcionar no Firefox*/
+	-webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+	border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+.btnExportWord
+{
+	height: 25px;
+	width: 25px; 
+	vertical-align: middle;
+	background-color: transparent;
+	background-image: url(images/ExportWord.png);
+	background-repeat: no-repeat;
+    cursor:pointer;
+	-moz-border-radius: 7px; /* para funcionar no Firefox*/
+	-webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+	border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+    position:fixed;
+	z-index:10;
+	top: 85px;
+	right:6%;
+}
+.PosicionaProgresso
+{
+	position:fixed;
+	z-index:10;
+	top: 2px;
+	left :40%;
+}
+.zoom {display:block; width:50px; -webkit-transition-duration:.3s; position:relative;}
+.zoom:hover {
+       background-color:#8fbc8f;
+    text-align:center;
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    -o-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    z-index: 5;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+}
+.margemEsquerdaPagina {
+    margin-left:10px;
+    }
+
+.TituloLegal {
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+color:black;
+background-color:#8FBC8F;
+margin-bottom:5px;
+padding:15px;
+font-size:large; 
+}
+
+.ArrendodarBorda {
+    border:solid;
+    border-width:1px;
+    border-color:ForestGreen;  
+    -moz-border-radius: 5px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 5px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 5px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+/*Esse processo abaixo server para criar um efeito de ModalPopUpExtender só que através de CSS- Aplicar no click do botão: */
+/*Chamar da seguine forma: DivInformacaoPagamento.Attributes("class") = "DivFundoTransparencia"*/
+/*Para funcinar no ie colocar o texto a seguir no topo da página: <meta http-equiv="X-UA-Compatible" content="IE=9" />*/
+.DivFundoTransparencia {
+    position:fixed;
+    top:5px;
+    width: 97%;
+    height: 99%;
+    opacity:0.99; /*Demais navegadores*/
+    filter: alpha(opacity=99); /*Para internet explorer*/ 
+    background-color:#A9BCF5; 
+    border-color: Background;
+    border-width: 1px;
+    -moz-border-radius: 20px 20px; /* Para Firefox */
+    -webkit-border-radius: 20px 20px; /*Para Safari e Chrome */
+    border-radius: 20px 20px;
+}
+/*Centralizando o GridView na tela e aplicando opacidade-Aplica-se a Propriedade no ato de chamá-lo: gdvInformacaoPagamento.CssClass = "PosicionaFinalTelaCentralizado" */ 
+.PosicionaFinalTelaCentralizado {
+    position: fixed;
+    top: 22%;
+    left: 40%;
+     border:solid;
+    border-width:1px;
+    border-color:Window;  
+    -moz-border-radius: 5px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 5px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 5px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+    /*border: none;*/
+    /*width: 90%;*/
+}
+/*No Vb Aplicar na Div ao clicar no botão para chamar o grid da seguninte forma: gdvListaSolicitacao.CssClass = "AplicaTransparencia" */
+.AplicaTransparencia {
+    opacity: 0.07;
+    filter: alpha(opacity=10); 
+}
+.BotaoRodaPe {
+    position:absolute;
+    bottom:30%;
+    left: 45%; 
+}
+.imgImprimir {
+    height: 25px;
+	width: 90px; 
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url('images/impressora.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -moz-border-radius: 7px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 7px;
+}

@@ -1,0 +1,1723 @@
+﻿body {
+    font-family: Verdana;
+    font-size: 68%;
+}
+
+A.toolbarNavLink:link {
+    color: black;
+    cursor: default;
+    text-decoration: none;
+}
+
+A.toolbarNavLink:visited {
+    color: black;
+    cursor: default;
+    text-decoration: none;
+}
+
+A.toolbarNavLink:active {
+    color: black;
+    cursor: default;
+    text-decoration: none;
+}
+
+A.toolbarNavLink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+A.toolbarRecLink:link {
+    color: black;
+    cursor: default;
+    text-decoration: none;
+}
+
+A.toolbarRecLink:visited {
+    color: black;
+    cursor: default;
+    text-decoration: none;
+}
+
+A.toolbarRecLink:active {
+    color: black;
+    cursor: default;
+    text-decoration: none;
+}
+
+A.toolbarRecLink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+A.toolbarTransLink:link {
+    color: black;
+    cursor: default;
+    text-decoration: none;
+}
+
+A.toolbarTransLink:visited {
+    color: black;
+    cursor: default;
+    text-decoration: none;
+}
+
+A.toolbarTransLink:active {
+    color: black;
+    cursor: default;
+    text-decoration: none;
+}
+
+A.toolbarTransLink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+A.toolbarDataSetLink:link {
+    color: black;
+    cursor: default;
+}
+
+A.toolbarDataSetLink:visited {
+    color: black;
+    cursor: default;
+    text-decoration: none;
+}
+
+A.toolbarDataSetLink:active {
+    color: black;
+    cursor: default;
+    text-decoration: none;
+}
+
+A.toolbarDataSetLink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+A.tabViewTopLink:link {
+    color: black;
+    font-size: 80%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+A.tabViewTopLink:visited {
+    color: black;
+    font-size: 80%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+A.tabViewTopLink:active {
+    color: black;
+    font-size: 80%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+A.tabViewTopLink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+A.tabViewBottomLink:link {
+    color: black;
+    text-decoration: none;
+}
+
+A.tabViewBottomLink:visited {
+    color: black;
+    font-size: 80%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+A.tabViewBottomLink:active {
+    color: black;
+    font-size: 80%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+A.tabViewBottomLink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+A.tabViewLeftLink:link {
+    color: black;
+    font-size: 80%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+A.tabViewLeftLink:visited {
+    color: black;
+    text-decoration: none;
+}
+
+A.tabViewLeftLink:active {
+    color: black;
+    text-decoration: none;
+}
+
+A.tabViewLeftLink:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+A.tabViewRightLink:link {
+    color: black;
+    font-size: 80%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+A.tabViewRightLink:visited {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+A.tabViewRightLink:active {
+    color: black;
+    text-decoration: none;
+}
+
+.viewHeaderOLD {
+    border-bottom: lightsteelblue 1px solid;
+    color: black;
+    font-size: 150%;
+    margin-bottom: 4px;
+    margin-top: 8px;
+    padding-bottom: 0px;
+}
+
+.errorMessage {
+    border-bottom: maroon;
+    border-left: maroon;
+    border-right: maroon;
+    border-top: maroon;
+    color: red;
+    font-size: 100%;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.tableHeading {
+    background-color: blue;
+    font-weight: bold;
+}
+
+.tableRow {
+}
+
+.tableRowOdd {
+    background-color: #f0f8ff;
+}
+
+.tableRowEven {
+    background-color: white;
+}
+
+.tableBody {
+    background-color: blue;
+    font-size: 110%;
+    border-left: 1 solid #395992;
+    border-top: 1 solid #395992;
+}
+
+.tableColumnCaption {
+    border-right: 1 solid lightsteelblue;
+    border-bottom: 1 solid lightsteelblue;
+    padding-top: 1;
+    padding-bottom: 1;
+}
+
+.tableColumnCaptionCalendar {
+}
+
+.tableColumnCell {
+    border-right: 1 solid lightsteelblue;
+    border-bottom: 1 solid lightsteelblue;
+}
+
+.tableColumnCellCalendar {
+}
+
+.formTable {
+    font-size: 100%;
+}
+
+.formLabel {
+    background-color: white;
+    color: gray;
+    font-size: 110%;
+    text-decoration: none;
+}
+
+.formLabelCabecalho {
+    color: gray;
+    font-size: 110%;
+    text-decoration: none;
+}
+
+.formLabelEscuro {
+    color: black;
+    font-size: 110%;
+    text-decoration: none;
+}
+
+.a {
+    display: block;
+    width: 25px;
+    -webkit-transition-duration: .3s;
+    position: relative;
+}
+
+a.formLabelEscuro:hover {
+    -webkit-transform: scale(2.0);
+    transform: scale(2.0);
+    -o-transform: scale(2.0);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(2.0);
+    z-index: 5;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formLabel2 {
+    color: gray;
+    border: none;
+}
+
+.formLabelTitulo {
+    color: blue;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.formLabelTabContainer {
+    color: black;
+    font-size: 80%;
+}
+
+.formHtml {
+    font-size: 100%;
+}
+
+.formRuler {
+    background-color: lightsteelblue;
+}
+
+.formRulerEscuro {
+    background-color: gray;
+}
+
+.formButton {
+    font-family: verdana;
+    font-size: 100%;
+}
+
+.formCheckBox {
+    font-family: verdana;
+}
+
+.formPassword {
+    font-family: verdana;
+    font-size: 100%;
+}
+
+.formRadio {
+    font-family: verdana;
+}
+
+.formReset {
+    font-family: verdana;
+    font-size: 100%;
+}
+
+.formSelect {
+    font-family: verdana;
+    font-size: 110%;
+}
+
+.formSubmit {
+    font-family: verdana;
+    font-size: 100%;
+}
+
+.formText {
+    font-family: verdana;
+    font-size: 110%;
+}
+
+.formText2 {
+    font-family: verdana;
+}
+
+.formTextArea {
+    font-family: Verdana;
+    font-size: 110%;
+}
+
+.toolbarTable {
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.toolbarRecLinkCell {
+    background-color: gray;
+    border-bottom: black 1px solid;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+    border-top: black 1px solid;
+    color: white;
+    font-family: 'MS Sans Serif';
+    font-size: 68%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.toolbarNavLinkCell {
+    background-color: silver;
+    border-bottom: black 1px solid;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+    border-top: black 1px solid;
+    font-family: 'MS Sans Serif';
+    font-size: 68%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.toolbarTransLinkCell {
+    background-color: gray;
+    border-bottom: black 1px solid;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+    border-top: black 1px solid;
+    font-family: 'MS Sans Serif';
+    font-size: 68%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.toolbarDataSetLinkCell {
+    background-color: gray;
+    border-bottom: black 1px solid;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+    border-top: black 1px solid;
+    font-family: 'MS Sans Serif';
+    font-size: 68%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.toolbarRecBtn {
+    font-family: verdana;
+    background-color: gray;
+    font-size: 68%;
+}
+
+.toolbarRecBtnCell {
+    font-weight: bold;
+}
+
+.toolbarNavBtn {
+    font-family: verdana;
+    background-color: silver;
+    font-size: 68%;
+}
+
+.toolbarNavBtnCell {
+    border-bottom: medium none;
+    border-left: medium none;
+    border-right: medium none;
+    border-top: medium none;
+}
+
+.toolbarTransBtn {
+    font-family: verdana;
+    background-color: gray;
+    font-size: 68%;
+}
+
+.toolbarTransBtnCell {
+}
+
+.toolbarDataSetBtn {
+    font-family: verdana;
+    background-color: gray;
+    font-size: 68%;
+}
+
+.toolbarDataSetBtnCell {
+}
+
+.tabViewBottomArea {
+    background-color: blue;
+}
+
+.tabViewLeftArea {
+    background-color: white;
+    border-right: lightsteelblue 1px solid;
+    border-top: lightsteelblue 1px solid;
+    padding-top: 8pt;
+    margin-right: 10pt;
+}
+
+.tabViewRightArea {
+    background-color: white;
+    border-left: lightsteelblue 1px solid;
+    border-top: lightsteelblue 1px solid;
+    padding-top: 8pt;
+    margin-right: 10pt;
+}
+
+.tabViewTopArea {
+    background-color: blue;
+}
+
+.tabViewWorkArea {
+}
+
+.tabViewTable {
+    font-size: 100%;
+}
+
+.tabViewTopLinkCell {
+}
+
+.tabViewTopLinkSelected {
+    background-color: navy;
+    border-left: white 1px solid;
+    border-right: white 1px solid;
+    border-top: medium none;
+    color: white;
+    font-size: 80%;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.tabViewBottomLinkCell {
+}
+
+.tabViewBottomLinkSelected {
+    background-color: gray;
+    border-left: white 1px solid;
+    border-right: white 1px solid;
+    border-top: medium none;
+    color: white;
+    font-size: 80%;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.tabViewLeftLinkCell {
+    color: black;
+    font-size: 68%;
+    font-weight: bold;
+    padding: 2 20 2 4;
+}
+
+.tabViewLeftLinkSelected {
+    border-left: lightsteelblue 1px solid;
+    border-top: lightsteelblue 1px solid;
+    border-bottom: lightsteelblue 1px solid;
+    color: black;
+    font-size: 68%;
+    font-weight: bold;
+    padding: 2 20 2 4;
+}
+
+.tabViewRightLinkCell {
+    color: black;
+    font-size: 68%;
+    font-weight: bold;
+    padding: 2 4 2 20;
+}
+
+.tabViewRightLinkSelected {
+    border-right: lightsteelblue 1px solid;
+    border-top: lightsteelblue 1px solid;
+    border-bottom: lightsteelblue 1px solid;
+    color: black;
+    font-size: 68%;
+    font-weight: bold;
+    padding: 2 4 2 20;
+}
+
+.pageLogo {
+    background-color: white;
+    background-image: url(images/blue_logo1.gif);
+    background-repeat: no-repeat;
+    font-family: Tahoma;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 12px;
+    margin-top: -5px;
+}
+
+.pageLogotipo {
+    background-color: transparent;
+    background-image: url(images/logotipo.gif);
+    background-repeat: no-repeat;
+}
+
+.pageLogoTitle1 {
+    color: white;
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 12px;
+    margin-top: -5px;
+}
+
+.pageLogoTitle2 {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-top: 4px;
+}
+
+.pageBarricada {
+    background-color: transparent;
+    background-image: url(images/barricada.gif);
+    background-repeat: no-repeat;
+}
+
+.pageHorizDivTop {
+    background-color: white;
+}
+
+.pageHorizDivBottom {
+    background-color: black;
+}
+
+.pageVertDiv {
+    background-color: blue;
+}
+
+.pageWorkArea {
+    background-color: white;
+    background-image: none;
+    background-position: right top;
+    background-repeat: no-repeat;
+    font-size: 68%;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+a.tableSortableCaption:link, a.tableSortableCaption:active, a.tableSortableCaption:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+.ColocaHand {
+    cursor: pointer;
+}
+
+.formValor {
+    font-family: verdana;
+    font-size: 80%;
+}
+
+.formTextReduzido {
+    font-family: verdana;
+    font-size: 80%;
+}
+
+.btnConsultar {
+    background-color: transparent;
+    background-image: url(images/BotaoConsultar.gif);
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 90px;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnConsultarSohFigura {
+    background-color: transparent;
+    background-image: url(images/BotaoConsultarSohFigura.gif);
+    background-repeat: no-repeat;
+    height: 35;
+    width: 30;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnVerImpressao {
+    background-color: transparent;
+    background-image: url(../images/BotaoVisImpressao.gif);
+    background-repeat: no-repeat;
+    height: 35;
+    width: 100;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnInserir {
+    background-color: transparent;
+    background-image: url(../images/BotaoInserir.gif);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 100px;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnInserirSohFigura {
+    background-color: transparent;
+    background-image: url(../images/BotaoInserirSohFigura.gif);
+    background-repeat: no-repeat;
+    height: 35;
+    width: 30;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnInserirMaisMedio {
+    background-color: transparent;
+    background-image: url(../images/BotaoInserirMaisMedio.gif);
+    background-repeat: no-repeat;
+    height: 35;
+    width: 130;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnConfirmarSohFigura {
+    background-color: transparent;
+    background-image: url(../images/BotaoConfirmarSohFigura.gif);
+    background-repeat: no-repeat;
+    height: 24;
+    width: 24;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.btnMostrarTodasSohFigura {
+    background-color: transparent;
+    background-image: url(../images/BotaoMostrarTodasSohFigura.gif);
+    background-repeat: no-repeat;
+    height: 24;
+    width: 24;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.btnAlterarSohFigura {
+    background-color: transparent;
+    background-image: url(../images/BotaoAlterarSohFigura.gif);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 30px;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnExcluirSohFigura {
+    background-color: transparent;
+    background-image: url(../images/BotaoExcluirSohFigura.gif);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 31px;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnExcluir {
+    background-color: transparent;
+    background-image: url(../images/BotaoExcluir.gif);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 100px;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnVoltar {
+    background-color: transparent;
+    background-image: url(../images/BotaoVoltar.gif);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 100px;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnVoltarSohFigura {
+    background-color: transparent;
+    background-image: url(../images/BotaoVoltarSohFigura.gif);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 30px;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnAvancar {
+    background-color: transparent;
+    background-image: url(../images/BotaoAvancar.gif);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 100px;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnConfirmar {
+    background-color: transparent;
+    background-image: url(../images/BotaoConfirmar.gif);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 90px;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnCancelar {
+    background-color: transparent;
+    background-image: url(../images/BotaoCancelar.gif);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 100px;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnGravarDefinitivamente {
+    background-color: transparent;
+    background-image: url(../images/BotaoGravarDefinitivamente.gif);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 177px;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnImprimir {
+    background-color: transparent;
+    /*background-image: url( ../images/BotaoImprimir.gif);*/
+    background-image: url('images/BotaoImprimir.gif');
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 100px;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnAlterar {
+    background-color: transparent;
+    background-image: url(../images/BotaoAlterar.gif);
+    background-repeat: no-repeat;
+    height: 88px;
+    width: 176px;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnAjuda {
+    background-color: transparent;
+    background-image: url(../images/BotaoAjuda.gif);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 100px;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnLimparSohFigura {
+    background-color: transparent;
+    background-image: url(images/limpar.png);
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.btnLimpar {
+    background-color: transparent;
+    background-image: url(../images/BotaoLimpar.gif);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 100px;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnParametro {
+    background-color: transparent;
+    background-image: url(../images/BotaoParametro.gif);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 100px;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnPrestadores {
+    background-color: transparent;
+    background-image: url(../images/BotaoPrestadores.gif);
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 90px;
+    border-width: 0;
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menuFixo {
+    margin: 0;
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    width: 8.5em;
+    right: auto;
+    z-index: 10;
+}
+
+.cabecalhoFixo {
+    position: relative;
+}
+
+.filtroFixo {
+    position: relative;
+}
+
+.filtroFixoSiteMap {
+    margin: 0;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: auto;
+    z-index: 0;
+}
+
+.principalFixo {
+    margin: 0;
+    position: relative;
+    z-index: 10;
+}
+
+.principalFixoSiteMap {
+    margin: 0;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    right: auto;
+    z-index: 0;
+}
+
+.gridFixo {
+    margin: 0;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: auto;
+    z-index: 0;
+}
+
+.gridFixoSiteMap {
+    margin: 0;
+    position: relative;
+    top: 10px;
+    left: 0px;
+    right: auto;
+    z-index: 0;
+}
+
+.principalTopo {
+    margin: 0;
+    position: relative;
+    top: 6em;
+    left: 180px;
+    right: auto;
+    z-index: 0;
+}
+
+.gridHeaderFixo {
+    background-color: lightsteelblue;
+    position: absolute;
+}
+
+.posicaoFixa {
+    position: fixed;
+}
+
+/* ajax__tab_ie-theme theme */
+
+.ajax__tab_technorati-theme .ajax__tab_header {
+    font-family: "Helvetica Neue", Arial, Sans-Serif;
+    background: url(images/tab-line.png) repeat-x bottom;
+    font-size: 12px;
+    display: block;
+}
+
+    .ajax__tab_technorati-theme .ajax__tab_header .ajax__tab_outer {
+        background: url(images/tab.png) no-repeat left top;
+        border-color: #222;
+        color: #222;
+        padding-left: 10px;
+        margin-right: 3px;
+    }
+
+    .ajax__tab_technorati-theme .ajax__tab_header .ajax__tab_inner {
+        background: url(images/tab.png) no-repeat right top;
+        border-color: #666;
+        color: #666;
+        padding: 3px 10px 2px 0px;
+    }
+
+.ajax__tab_technorati-theme .ajax__tab_hover .ajax__tab_inner {
+    color: #000000;
+    cursor: pointer;
+}
+
+.ajax__tab_technorati-theme .ajax__tab_active .ajax__tab_outer {
+    background: url(images/tab.png) no-repeat 0pt -40px;
+    border-bottom-color: #ffffff;
+}
+
+.ajax__tab_technorati-theme .ajax__tab_active .ajax__tab_inner {
+    background: url(images/tab.png) no-repeat right -40px;
+    color: #000000;
+    border-color: #333;
+}
+
+.ajax__tab_technorati-theme .ajax__tab_body {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 10pt;
+    padding: 8px;
+    background-color: #EFF3FB;
+    border: solid 1px #d7d7d7;
+    border-top-width: 0;
+}
+
+.formLabelWeb {
+    color: navy;
+    font-family: verdana;
+    font-size: 130%;
+}
+
+.formLabelWebChecked {
+    color: navy;
+    font-family: verdana;
+    font-size: 150%;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #f0f8ff;
+}
+
+.cellHeader {
+    color: white;
+    font-size: 7pt;
+    font-weight: bold;
+    text-decoration: none;
+    background: #1c5e55;
+}
+
+.menuToolBar {
+    padding-left: 4;
+    background-color: lightsteelblue;
+    color: black;
+    font-size: 100%;
+}
+
+.menuTOC {
+    list-style-type: none;
+}
+
+.menuTOCItem {
+    padding-top: 5;
+    padding-bottom: 5;
+}
+
+.menuTOCDesc {
+    margin-top: 0;
+}
+
+.menuToolBarSelectedItem {
+    font-weight: bold;
+    cursor: default;
+    color: black;
+}
+
+A.menuToolBarItem:active {
+    font-weight: bold;
+}
+
+A.menuToolBarItem:link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+A.menuToolBarItem:visited {
+    font-weight: bold;
+    color: white;
+}
+
+A.menuToolBarItem:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+UL.menuPage {
+    margin-left: 16px;
+    margin-top: 0px;
+    font-size: 68%;
+}
+
+A.menuTocHeading:active {
+    color: black;
+    font-weight: normal;
+}
+
+A.menuTocHeading:link {
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+A.menuTocHeading:visited {
+    color: black;
+    font-weight: normal;
+}
+
+A.menuTocHeading:hover {
+    color: black;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+A.menuTocItem:active {
+    color: black;
+}
+
+A.menuTocItem:link {
+    color: black;
+}
+
+A.menuTocItem:visited {
+    color: black;
+}
+
+A.menuTocItem:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+SPAN.menuTocItemSelected {
+    color: black;
+    font-weight: bold;
+    cursor: default;
+}
+
+LI.menuTocListItem {
+    list-style-type: none;
+    padding: 5 0 5 0;
+}
+
+UL.menuItemsShow, UL.menuItemHide {
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+UL UL LI {
+    margin-left: -24px;
+    margin-top: 0.1em;
+}
+
+LI.menuShowHide {
+    list-style-type: none;
+    list-style-image: url('/aspx_styles/images/plus.gif');
+    cursor: pointer;
+    margin-bottom: 2pt;
+    margin-top: 2pt;
+}
+
+LI.menuShowHideShowing {
+    list-style-type: none;
+    list-style-image: url('/aspx_styles/images/minus.gif');
+    cursor: pointer;
+    margin-bottom: 2pt;
+    margin-top: 2pt;
+}
+
+UL.menuItemsShow {
+    list-style-type: none;
+    list-style-image: none;
+}
+
+UL.menuItemsHide {
+    list-style-type: none;
+    list-style-image: url('/aspx_styles/images/minus.gif');
+    display: none;
+}
+
+.gridBorderColor {
+    border-color: lightsteelblue;
+    border-style: solid;
+    border-width: 1px;
+    z-index: -1;
+}
+
+.btnConsultar2008 {
+    border-bottom: medium none red;
+    border-left: medium none;
+    border-right: medium none;
+    border-top: medium none background-image: url(images/lupa.png);
+    font-family: verdana;
+    font-size: 100%;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.imgInserir {
+    height: 25px;
+    width: 90px;
+    background-color: transparent;
+    background-image: url(images/Lupa.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -moz-border-radius: 7px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 7px;
+}
+
+.imgLupa {
+    width: 110px;
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url('images/Lupa.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -moz-border-radius: 7px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 7px;
+}
+
+.imgImprimir {
+    height: 25px;
+	width: 90px; 
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url('images/impressora.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -moz-border-radius: 7px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 7px;
+}
+
+.imgLimpar {
+    height: 25px;
+    width: 90px;
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url('images/limpar.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -moz-border-radius: 7px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+
+.imgAbc {
+    background-image: url(images/Abc.png);
+    background-repeat: no-repeat;
+}
+
+.imgNovo {
+    height: 25px;
+    width: 90px;
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url(images/Novo.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -moz-border-radius: 7px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+
+/*rsor: hand; -moz-border-radius: 7px;*/ /* para funcionar no Firefox*/
+/*-webkit-border-radius: 7px;*/ /* para funcionar no Chrome ou no Safari */
+/*border-radius: 7px;*/ /* É bom colocar caso haja alguma incompatibilidade no futuro */
+/*}*/
+
+.imgSalvar {
+    height: 25px;
+    width: 30px;
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url(images/Gravar.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -moz-border-radius: 7px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+
+.imgGravar {
+    height: 25px;
+	width: 90px; 
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url('images/Gravar.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -moz-border-radius: 7px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+
+.imgExcluir {
+    height: 25px;
+    width: 90px;
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url(images/Excluir.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -moz-border-radius: 7px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+
+.imgEmail {
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url(images/email.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -moz-border-radius: 7px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+
+.imgEmail {
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url(images/email.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -moz-border-radius: 7px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+
+.imgVoltar {
+    width: 110px;
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url('images/voltar.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -moz-border-radius: 7px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+
+.imgIndividual {
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url(images/masculino.png);
+    background-repeat: no-repeat;
+}
+
+.imgCaixa {
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url(images/caixa.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -moz-border-radius: 7px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+
+.imgCalculo {
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url(images/calculo.png);
+    background-repeat: no-repeat;
+}
+
+.modalBackground {
+    background-color: lightsteelblue;
+    filter: alpha(opacity=50);
+    opacity: .50;
+}
+
+.opaco {
+    filter: alpha(opacity=50);
+    opacity: .50;
+}
+
+.aplicaTransparencia {
+    background-color: Transparent;
+    border-style: none;
+}
+
+.imgRelatorio {
+    height: 25px;
+    width: 100px;
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url(images/Report.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -moz-border-radius: 7px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+
+.imgEstatistica {
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url(images/Estatistica.png);
+    background-repeat: no-repeat;
+    width: 110px;
+}
+
+.FonteGrandeApartamento {
+    font-size: 40px;
+    font-family: Times New Roman;
+    font-weight: bold;
+}
+
+.aplicaTransparencia {
+    background-color: Transparent;
+}
+
+.formLinkWeb {
+    color: navy;
+    font-family: verdana;
+    font-size: 100%;
+    text-decoration: blink;
+}
+
+.btnConsultarReserva {
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url(images/lupa.jpg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-style: none;
+    height: 25px;
+    width: 25px;
+    background-color: Silver;
+}
+
+.btnIrUltimoRegistro {
+    height: 25px;
+    width: 110px;
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url(images/CalNextYear.gif);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -moz-border-radius: 7px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+
+.btnExportWord {
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    background-color: transparent;
+    background-image: url(images/ExportWord.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -moz-border-radius: 7px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 7px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 7px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+    position: fixed;
+    z-index: 10;
+    top: 85px;
+    right: 6%;
+}
+
+.PosicionaProgresso {
+    position: fixed;
+    z-index: 10;
+    top: 2px;
+    left: 40%;
+}
+
+.zoom {
+    display: block;
+    width: 50px;
+    -webkit-transition-duration: .3s;
+    position: relative;
+}
+
+    .zoom:hover {
+        background-color: lightsteelblue;
+        text-align: center;
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        -o-transform: scale(1.0'');
+        -moz-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+        z-index: 5;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        text-wrap: none;
+    }
+
+.margemEsquerdaPagina {
+    margin-left: 10px;
+}
+
+.TextCenter {
+    text-align: center;
+}
+
+.TituloLegal {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: black;
+    background-color: #B0C4DE;
+    margin-bottom: 5px;
+    padding: 15px;
+    font-size: large;
+}
+
+.TituloLegalMenor {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: black;
+    background-color: #B0C4DE;
+    margin-bottom: 5px;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.ArrendodarBorda {
+    border: solid;
+    border-width: 1px;
+    border-color: LightSteelBlue;
+    -moz-border-radius: 5px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 5px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 5px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+}
+
+    .ArrendodarBorda:focus {
+        border-color: #66afe9;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+    }
+
+.ArrendodarBordaEmissivo {
+    border: solid;
+    -moz-border-radius: 5px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 5px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 5px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+    /*display: block;*/
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+    .ArrendodarBordaEmissivo:focus {
+        border-color: #66afe9;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+    }
+
+/*display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}*/
+
+
+
+/*Esse processo abaixo server para criar um efeito de ModalPopUpExtender só que através de CSS- Aplicar no click do botão: */
+/*Chamar da seguine forma: DivInformacaoPagamento.Attributes("class") = "DivFundoTransparencia"*/
+/*Para funcinar no ie colocar o texto a seguir no topo da página: <meta http-equiv="X-UA-Compatible" content="IE=9" />*/
+.DivFundoTransparencia {
+    position: fixed;
+    top: 5px;
+    width: 97%;
+    height: 99%;
+    opacity: 0.99; /*Demais navegadores*/
+    filter: alpha(opacity=99); /*Para internet explorer*/
+    background-color: #A9BCF5;
+    border-color: Background;
+    border-width: 1px;
+    -moz-border-radius: 20px 20px; /* Para Firefox */
+    -webkit-border-radius: 20px 20px; /*Para Safari e Chrome */
+    border-radius: 20px 20px;
+}
+/*Centralizando o GridView na tela e aplicando opacidade-Aplica-se a Propriedade no ato de chamá-lo: gdvInformacaoPagamento.CssClass = "PosicionaFinalTelaCentralizado" */
+.PosicionaFinalTelaCentralizado {
+    position: fixed;
+    top: 22%;
+    left: 30%;
+    border: solid;
+    border-width: 1px;
+    border-color: Window;
+    -moz-border-radius: 5px; /* para funcionar no Firefox*/
+    -webkit-border-radius: 5px; /* para funcionar no Chrome ou no Safari */
+    border-radius: 5px; /* É bom colocar caso haja alguma incompatibilidade no futuro */
+    /*border: none;*/
+    /*width: 90%;*/
+}
+/*No Vb Aplicar na Div ao clicar no botão para chamar o grid da seguninte forma: gdvListaSolicitacao.CssClass = "AplicaTransparencia" */
+.AplicaTransparencia {
+    opacity: 0.07;
+    filter: alpha(opacity=10);
+}
+
+.BotaoRodaPe {
+    position: absolute;
+    bottom: 30%;
+    left: 45%;
+}
+
+.BarraTituloEmissivo {
+    font-family: 'Arial Rounded MT';
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    background-color: #6CA6CD;
+    /*background-color:#E6E6FA;*/
+    height: 34px;
+    font-style: italic;
+}
+.BoletoRegistrado {
+    background-repeat:no-repeat; 
+    display: block; 
+    width:40px; 
+    background:url(images/BarCodPequeno.png) no-repeat top;
+    background-size:25px;
+}
