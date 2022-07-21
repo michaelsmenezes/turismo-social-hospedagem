@@ -2720,49 +2720,49 @@
                                                             <tr>
                                                                 <td>
                                                                     <asp:LinkButton ID="OKlnk1719" runat="server" BorderColor="LightSteelBlue" BorderStyle="Solid"
-                                                                        BorderWidth="1px" CommandName="1719" ForeColor="Blue" CssClass="formLabelEscuro" >1</asp:LinkButton>
+                                                                        BorderWidth="1px" CommandName="1719" ForeColor="Red" CssClass="formLabelEscuro" >1</asp:LinkButton>
                                                                     <%--<asp:RoundedCornersExtender ID="lnk719_RoundedCornersExtender" runat="server" BorderColor="LightSteelBlue"
                                                                     Enabled="True" TargetControlID="OKlnk719" Radius="1">
                                                                 </asp:RoundedCornersExtender>--%>
                                                                 </td>
                                                                 <td>
                                                                     <asp:LinkButton ID="OKlnk1720" runat="server" BorderColor="LightSteelBlue" BorderStyle="Solid"
-                                                                        BorderWidth="1px" CommandName="1720" ForeColor="Blue" CssClass="formLabelEscuro" >3</asp:LinkButton>
+                                                                        BorderWidth="1px" CommandName="1720" ForeColor="Red" CssClass="formLabelEscuro" >3</asp:LinkButton>
                                                                     <%--<asp:RoundedCornersExtender ID="lnk720_RoundedCornersExtender" runat="server" BorderColor="LightSteelBlue"
                                                                     Enabled="True" TargetControlID="OKlnk720" Radius="1">
                                                                 </asp:RoundedCornersExtender>--%>
                                                                 </td>
                                                                 <td>
                                                                     <asp:LinkButton ID="OKlnk1721" runat="server" BorderColor="LightSteelBlue" BorderStyle="Solid"
-                                                                        BorderWidth="1px" CommandName="1721" ForeColor="Blue" CssClass="formLabelEscuro" >4</asp:LinkButton>
+                                                                        BorderWidth="1px" CommandName="1721" ForeColor="Red" CssClass="formLabelEscuro" >4</asp:LinkButton>
                                                                     <%--<asp:RoundedCornersExtender ID="lnk721_RoundedCornersExtender" runat="server" BorderColor="LightSteelBlue"
                                                                     Enabled="True" TargetControlID="OKlnk721" Radius="1">
                                                                 </asp:RoundedCornersExtender>--%>
                                                                 </td>
                                                                 <td>
                                                                     <asp:LinkButton ID="OKlnk1722" runat="server" BorderColor="LightSteelBlue" BorderStyle="Solid"
-                                                                        BorderWidth="1px" CommandName="1722" ForeColor="Blue" CssClass="formLabelEscuro" >5</asp:LinkButton>
+                                                                        BorderWidth="1px" CommandName="1722" ForeColor="Red" CssClass="formLabelEscuro" >5</asp:LinkButton>
                                                                     <%--<asp:RoundedCornersExtender ID="lnk722_RoundedCornersExtender" runat="server" BorderColor="LightSteelBlue"
                                                                     Enabled="True" TargetControlID="OKlnk722" Radius="1">
                                                                 </asp:RoundedCornersExtender>--%>
                                                                 </td>
                                                                 <td>
                                                                     <asp:LinkButton ID="OKlnk1723" runat="server" BorderColor="LightSteelBlue" BorderStyle="Solid"
-                                                                        BorderWidth="1px" CommandName="1723" ForeColor="Blue" CssClass="formLabelEscuro" >6</asp:LinkButton>
+                                                                        BorderWidth="1px" CommandName="1723" ForeColor="Red" CssClass="formLabelEscuro" >6</asp:LinkButton>
                                                                     <%--<asp:RoundedCornersExtender ID="lnk723_RoundedCornersExtender" runat="server" BorderColor="LightSteelBlue"
                                                                     Enabled="True" TargetControlID="OKlnk723" Radius="1">
                                                                 </asp:RoundedCornersExtender>--%>
                                                                 </td>
                                                                 <td>
                                                                     <asp:LinkButton ID="OKlnk1724" runat="server" BorderColor="LightSteelBlue" BorderStyle="Solid"
-                                                                        BorderWidth="1px" CommandName="1724" ForeColor="Blue" CssClass="formLabelEscuro" >7</asp:LinkButton>
+                                                                        BorderWidth="1px" CommandName="1724" ForeColor="Red" CssClass="formLabelEscuro" >7</asp:LinkButton>
                                                                     <%--<asp:RoundedCornersExtender ID="lnk724_RoundedCornersExtender" runat="server" BorderColor="LightSteelBlue"
                                                                     Enabled="True" TargetControlID="OKlnk724" Radius="1">
                                                                 </asp:RoundedCornersExtender>--%>
                                                                 </td>
                                                                 <td>
                                                                     <asp:LinkButton ID="OKlnk1725" runat="server" BorderColor="LightSteelBlue" BorderStyle="Solid"
-                                                                        BorderWidth="1px" CommandName="1725" ForeColor="Blue" CssClass="formLabelEscuro" >8</asp:LinkButton>
+                                                                        BorderWidth="1px" CommandName="1725" ForeColor="Red" CssClass="formLabelEscuro" >8</asp:LinkButton>
                                                                     <%--<asp:RoundedCornersExtender ID="lnk725_RoundedCornersExtender" runat="server" BorderColor="LightSteelBlue"
                                                                     Enabled="True" TargetControlID="OKlnk725" Radius="1">
                                                                 </asp:RoundedCornersExtender>--%>
